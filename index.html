@@ -6,17 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>WhoIsTheChampion</title>
 </head>
 
 <body>
-    <h1>Who Is The Champion</h1>
+    <h1 id="title">Who Is The Champion</h1>
     
     <div class="container">
         <div class="wrapper">
+            <p id="desc">Teste seu conhecimento...</p>
+            <p id="phrase">De quem é a frase?</p>
             <span id="phraseShow"></span>
             <input type="text" placeholder="Digite o campeão aqui" id="championName">
             <button id="btnCheck">Checar</button>
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="ball"></span>
+            </label>
         </div>
     </div>
 

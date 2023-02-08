@@ -11,7 +11,7 @@ export const phrases = [
     },
     {
         id: 3,
-        phrase: 'A escalada é longa, mas a vista vale a pena!.',
+        phrase: 'A escalada é longa, mas a vista vale a pena!',
         champion: 'Taric'
     },
     {
