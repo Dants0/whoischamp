@@ -4,7 +4,7 @@ const btn = document.getElementById('btnCheck')
 const phraseShowText = document.getElementById('phraseShow');
 const championName = document.getElementById('championName');
 const checkbox = document.getElementById("checkbox");
-const sun = document.querySelector('.fa fas-sun');
+const score = document.getElementById('score');
 
 const getFullInfoChampion = phrases.map((index, frase, champion) => {
     return index, frase, champion
@@ -20,9 +20,10 @@ btn.addEventListener('click', checkChampion)
 
 function checkChampion() {
     let strChampionNameCorrectly = showPhrase()
-
+    
     if (championName.value == strChampionNameCorrectly) {
         alert("Acertou")
+        window.location.reload()
     } else if (!championName.value) {
         alert("Digite o nome")
     }
